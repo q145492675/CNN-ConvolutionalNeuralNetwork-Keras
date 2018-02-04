@@ -20,16 +20,16 @@ This routine is implemented in Keras (Tensorflow as backend)
   * `nb_classes`: How many label in your dataset [default number is 2].
   * `epoch`: How many epoch you want to training [default number is 10].    
   * `batch_size`: How many data you want to train each batch [default number is 128].
-  * `ConvLay`: The number of 2DConvolutional layer in the framework [default number is 3].
+  * `ConvLay`: The number of 2D-Convolutional layer in the framework [default number is 3].
   * `ConvAct`: The activation function of Convolutional layer [default is `ReLU`]. 
   * `Filter`: How many Filter in each Convolutional layer [default number is 32].  
-  * `kernel_size`: the size of each convolutional layer's convolutional window [default size is (3,3)].
-   * `pool_size`: the size of each Pooling layer's window [default size is (2,2)]. 
-   * `Drop_perc`: the percentage of data need to drop out in each drop layer [default number is 0.45].   
+  * `kernel_size`: The size of each convolutional layer's convolutional window [default size is (3,3)].
+   * `pool_size`: The size of each Pooling layer's window [default size is (2,2)]. 
+   * `Drop_perc`: The percentage of data need to drop out in each drop layer [default number is 0.45].   
   * `DensLay`: The number of Full_Collected layer in the framework [default number is 2].
-  * `DensUnit`: How many units in each Full_Collected layer [default number is 128].
-  * `DensAct`: the activation function of each Full_Collected layer [default is `sigmoid`].
-  * `OutAct`: the activation function of the output layer [default is `softmax`].
+  * `DensUnit`: How many units in each Full_Collected layer [default number is 128]
+  * `DensAct`: The activation function of each Full_Collected layer [default is `sigmoid`].
+  * `OutAct`: The activation function of the output layer [default is `softmax`].
   
 ### Applendix
 * Still working on it 
