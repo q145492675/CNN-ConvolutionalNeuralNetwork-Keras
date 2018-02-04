@@ -25,7 +25,7 @@ This routine is implemented in Keras (Tensorflow as backend)
   * `Filter`: How many Filter in each Convolutional layer [default number is 32].  
   * `kernel_size`: the size of each convolutional layer's convolutional window [default size is (3,3)].
    * `pool_size`: the size of each Pooling layer's window [default size is (2,2)]. 
-    * `Drop_perc`: the percentage of data need to drop out in each drop layer [default number is 0.45].
+   * `Drop_perc`: the percentage of data need to drop out in each drop layer [default number is 0.45].   
   * `DensLay`: The number of Full_Collected layer in the framework [default number is 2].
   * `DensUnit`: How many units in each Full_Collected layer [default number is 128].
   * `DensAct`: the activation function of each Full_Collected layer [default is `sigmoid`].
