@@ -1,12 +1,12 @@
 # ConvolutionalNeuralNetwork-Keras
 This routine is implemented in Keras (Tensorflow as backend) 
 
-## Describition
+## Requirement:
 * Python 3.5 or higher version
 * Keras
 * Tensorflow
 
-## Usage
+## Usage:
 * put `CNNFitting.py` into your works folder
 * write the command : 
              `import CNNFitting` 
@@ -31,5 +31,5 @@ This routine is implemented in Keras (Tensorflow as backend)
   * `DensAct`: The activation function of each Full_Collected layer [default is `sigmoid`].
   * `OutAct`: The activation function of the output layer [default is `softmax`].
   
-### Applendix
+### Applendix:
 * Still working on it 
