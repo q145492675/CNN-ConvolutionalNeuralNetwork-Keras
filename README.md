@@ -29,7 +29,7 @@ This routine is implemented in Keras (Tensorflow as backend)
   * `DensLay`: The number of Full_Collected layer in the framework [default number is 2].
   * `DensUnit`: How many units in each Full_Collected layer [default number is 128]
   * `DensAct`: The activation function of each Full_Collected layer [default is `sigmoid`].
-  * `OutAct`: The activation function of the output layer [default is `softmax`].
+  * `OutAct`: The activation function of the output layer [default is `softmax`].
   
 ### Applendix
 * Still working on it 
