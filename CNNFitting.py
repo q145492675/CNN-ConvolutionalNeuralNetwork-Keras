@@ -94,4 +94,4 @@ def CNNTraining(docx_train,docy_train,docx_CV,docy_CV,docx_test,docy_test,nb_cla
     return score
     
 ########################################################################################################### 
-A=CNNTraining(X_train,Y_train,X_CrossValidation,Y_CrossValidation,X_CrossValidation,Y_CrossValidation,epoch=12,batch_size=4,ConvLay=3,ConvAct='relu',Filter=32,kernel_size=(3,3),pool_size=(2,2),Drop_perc=0.25,DensLay=2,DensUnit=128,DensAct='sigmoid',OutAct='softmax')
+A=CNNTraining(X_train,Y_train,X_CrossValidation,Y_CrossValidation,X_CrossValidation,Y_CrossValidation,nb_classes=3,epoch=12,batch_size=4,ConvLay=3,ConvAct='relu',Filter=32,kernel_size=(3,3),pool_size=(2,2),Drop_perc=0.25,DensLay=2,DensUnit=128,DensAct='sigmoid',OutAct='softmax')
